@@ -116,6 +116,7 @@ namespace HAWDotNetCore.ConsoleApp
         }
 
         //delete
+
         public void Delete(int id)
         {
             SqlConnection connection = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
