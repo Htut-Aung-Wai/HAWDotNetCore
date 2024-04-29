@@ -8,8 +8,8 @@ Console.WriteLine("Hello, World!");
 
 
 AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
-adoDotNetExample.Create("htutcreate", "htut", "createhtut");
-//adoDotNetExample.Read();
+//adoDotNetExample.Create("htutcreate", "htut", "createhtut");
+adoDotNetExample.Read();
 //adoDotNetExample.Update(2, "htutbook", "htut", "hi this is htut");
 //adoDotNetExample.Delete(14);
 //adoDotNetExample.Edit(11);

@@ -12,6 +12,7 @@ namespace HAWDotNetCore.ConsoleApp
     {
         private readonly SqlConnectionStringBuilder _sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
         {
+
             DataSource = ".",
             InitialCatalog = "TestDb",
             UserID = "sa",
