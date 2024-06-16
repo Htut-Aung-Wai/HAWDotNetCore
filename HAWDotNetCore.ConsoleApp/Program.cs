@@ -7,13 +7,13 @@ using System.Data.SqlClient;
 Console.WriteLine("Hello, World!");
 
 
-AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
+//AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 //adoDotNetExample.Create("htutcreate", "htut", "createhtut");
-adoDotNetExample.Read();
+//adoDotNetExample.Read();
 //adoDotNetExample.Update(2, "htutbook", "htut", "hi this is htut");
 //adoDotNetExample.Delete(14);
 //adoDotNetExample.Edit(11);
-Console.ReadKey();
+//Console.ReadKey();
 
 
 
@@ -26,3 +26,9 @@ F9 = set breakpoint
 // dataset => datatable
 // datatable => datarow
 // datarow => datacolumn
+
+
+//DapperExample
+DapperExample dapperExample = new DapperExample();
+dapperExample.Run();
+Console.ReadLine();
